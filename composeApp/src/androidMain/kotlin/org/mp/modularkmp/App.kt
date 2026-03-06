@@ -18,6 +18,7 @@ import org.jetbrains.compose.resources.painterResource
 
 import modularkmp.composeapp.generated.resources.Res
 import modularkmp.composeapp.generated.resources.compose_multiplatform
+import org.mp.modularkmp.di.Greeting
 
 @Composable
 @Preview

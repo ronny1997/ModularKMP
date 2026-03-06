@@ -1,5 +1,5 @@
 import SwiftUI
-import Shared
+import Di
 
 struct ContentView: View {
     @State private var showContent = false
@@ -17,6 +17,7 @@ struct ContentView: View {
                         .font(.system(size: 200))
                         .foregroundColor(.accentColor)
                     Text("SwiftUI: \(Greeting().greet())")
+                    Text("SwiftUI: \(MyClassDomain().getTesttttt())")
                 }
                 .transition(.move(edge: .top).combined(with: .opacity))
             }
